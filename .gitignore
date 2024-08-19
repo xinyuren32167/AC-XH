@@ -1,0 +1,124 @@
+﻿#
+# AzerothCore
+#
+
+/conf/*
+!/conf/dist
+!/modules/*.md
+!/modules/*.sh
+!/modules/CMakeLists.txt
+!/modules/*.h
+!/modules/*.cmake
+/build*/
+/var/*
+!/var/build/.gitkeep
+!/var/ccache/.gitkeep
+/env/dist/*
+!/env/dist/.gitkeep
+/env/user/*
+/env/docker/*
+!/env/docker/bin/.gitkeep
+!/env/docker/data/.gitkeep
+!/env/docker/etc/
+/env/docker/etc/*
+!/env/docker/etc/*.conf.dockerdist
+!/env/docker/logs/.gitkeep
+/.env*
+/apps/joiner
+/deps/deno
+/data/sql/custom/*
+!/src/server/scripts/Custom/README.md
+
+/docker-compose.override.yml
+
+!.gitkeep
+
+#
+#Generic
+#
+
+.directory
+.mailmap
+*.orig
+*.rej
+*~
+.hg/
+*.kdev*
+.DS_Store
+CMakeLists.txt.user
+*.bak
+*.patch
+*.diff
+*.REMOTE.*
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+
+#
+# IDE & other software
+#
+/.settings/
+/.externalToolBuilders/*
+/.vs
+/out
+# exclude in all levels
+nbproject/
+.sync.ffs_db
+*.kate-swp
+.browse.VC*
+.idea
+cmake-build-*/*
+coverage-report/
+
+#
+# Eclipse
+#
+*.pydevproject
+.metadata
+.gradle
+tmp/
+*.tmp
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+.cproject
+
+
+# ==================
+#
+#  CUSTOM
+#
+#  put below your custom ignore rules
+#  for example , if you want to include a
+#  module directly in repositoryyou can do:
+#
+#  !modules/yourmodule
+#
+# ==================
+/out/build/x64-Debug
+/.vs
+
+#NPCBots
+!/data/sql/custom/db_characters/
+!/data/sql/custom/db_world/
+/dev/lua_scripts/UIWoW/[女娲的彩色石]超级炉石自用整合版1.11_2023_5_4/超级炉石自用整合加强版(v1.2).rar
+/dev/lua_scripts/UIWoW/[女娲的彩色石]超级炉石自用整合版1.11_2023_5_4/超级炉石自用整合加强版(v1.2).rar
+/dev/lua_scripts/UIWoW/[女娲的彩色石]超级炉石自用整合版1.11_2023_5_4/超级炉石自用整合加强版(v1.2).rar
+/dev/lua_scripts/UIWoW/[女娲的彩色石]超级炉石自用整合版1.11_2023_5_4/超级炉石自用整合加强版(v1.2).rar
+.cache
+compile_commands.json
+/client/WoW_3.3.5_12340/Cache/WDB/zhCN
+
+/client/WoW_3.3.5_12340/Data/zhCN/Interface/Cinematics
+/client/WoW_3.3.5_12340/Errors
+/client/WoW_3.3.5_12340/Logs
+/client/WoW_3.3.5_12340/WTF
+/client/WoW_3.3.5_12340/maps
+/client/WoW_3.3.5_12340/mmaps
+/client/WoW_3.3.5_12340/vmaps
+/client/WoW_3.3.5_12340/Interface/AddOns/aaAddon/.vs
+/client/WoW_3.3.5_12340/Interface/XWorld/XWorld/.vs/XWorld/v17
+/client/WoW_3.3.5_12340/Interface/XWorld/XWorld

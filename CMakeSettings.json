@@ -1,0 +1,72 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "TOOLS_BUILD",
+          "value": "none",
+          "type": "STRING"
+        },
+        {
+          "name": "MODULES",
+          "value": "static",
+          "type": "STRING"
+        },
+        {
+          "name": "Boost_LIBRARY_DIR_RELEASE",
+          "value": "",
+          "type": "PATH"
+        },
+        {
+          "name": "Boost_DIR",
+          "value": "",
+          "type": "PATH"
+        },
+        {
+          "name": "Boost_THREAD_LIBRARY_RELEASE",
+          "value": "",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "Boost_INCLUDE_DIR",
+          "value": "D:/Program Files (x86)/boost_1_75_0",
+          "type": "PATH"
+        },
+        {
+          "name": "MYSQL_EXECUTABLE",
+          "value": "D:/Program Files/MySQL/MySQL Server 8.0/bin/mysql.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "MYSQL_INCLUDE_DIR",
+          "value": "D:/Program Files/MySQL/MySQL Server 8.0/include",
+          "type": "PATH"
+        },
+        {
+          "name": "MYSQL_LIBRARY",
+          "value": "D:/Program Files/MySQL/MySQL Server 8.0/lib/libmysql.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "WITHOUT_GIT",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_DYNAMIC_LINKING",
+          "value": "False",
+          "type": "BOOL"
+        }
+      ]
+    }
+  ]
+}
